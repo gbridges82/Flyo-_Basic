@@ -1,0 +1,36 @@
+.hero {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+    position: relative;
+    margin-top: 6%;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+    &__image {
+        // justify-content: flex-start;
+        width: 200px;
+        order: 2;
+        width: 400px;
+
+    }
+
+
+    &__text {
+        text-align: left;
+        order: 1;
+        font-size: 90%;
+        
+    }
+
+    img {
+        justify-content: flex-end;
+        width: 500px;
+    }
+
+    div.hero__text {
+        justify-content: space-between;
+        font-size: 20px;
+        max-width: 700px;
+    }
+}
